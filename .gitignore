@@ -1,0 +1,12 @@
+#ignore node_modules, allow user to npm install them upon cloning.
+node_modules
+.DS_Store
+
+#ignore the react .env file
+.env
+
+dist/
+*.log
+
+#ignore the gcloud key file, if it so happens to be on the root route.
+deepcell-209717-1636426ba4c3.json
